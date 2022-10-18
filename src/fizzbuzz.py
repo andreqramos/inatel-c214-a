@@ -1,7 +1,5 @@
 def fizzbuzz(number):
-    if number == 5:
-        return 'buzz'
-    if number == 10:
+    if number % 5 == 0:
         return 'buzz'
     if number % 3 == 0:
         return 'fizz'
