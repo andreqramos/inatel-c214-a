@@ -21,3 +21,9 @@ def test_when_9_then_fizz():
 
 def test_when_12_then_fizz():
     assert fizzbuzz(12) == 'fizz'
+
+def test_when_5_then_buzz():
+    assert fizzbuzz(5) == 'buzz'
+
+def test_when_10_then_buzz():
+    assert  fizzbuzz(10) == 'buzz'
