@@ -2,31 +2,103 @@ import pytest
 from src.fizzbuzz import fizzbuzz
 
 def test_when_1_then_1():
-    assert fizzbuzz(1) == '1'
+# FIXTURE
+    input_value = '1'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == '1'
+    
 
 def test_when_2_then_2():
-    assert fizzbuzz(2) == '2'
+# FIXTURE
+    input_value = '2'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == '2'
+    
 
 def test_when_4_then_4():
-    assert fizzbuzz(4) == '4'
+# FIXTURE
+    input_value = '4'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == '4'
+
 
 def test_when_3_then_fizz():
-    assert fizzbuzz(3) == 'fizz'
+# FIXTURE
+    input_value = '3'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'fizz'
+
 
 def test_when_6_then_fizz():
-    assert fizzbuzz(6) == 'fizz'
+# FIXTURE
+    input_value = '6'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'fizz'
+
 
 def test_when_9_then_fizz():
-    assert fizzbuzz(9) == 'fizz'
+    # FIXTURE
+    input_value = '9'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'fizz'
+
 
 def test_when_12_then_fizz():
-    assert fizzbuzz(12) == 'fizz'
+    # FIXTURE
+    input_value = '12'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'fizz'
+
 
 def test_when_5_then_buzz():
-    assert fizzbuzz(5) == 'buzz'
+    # FIXTURE
+    input_value = '5'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'buzz'
+
 
 def test_when_10_then_buzz():
-    assert  fizzbuzz(10) == 'buzz'
+    # FIXTURE
+    input_value = '10'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'buzz'
+
 
 def test_when_invalid_then_exception():
     # FIXTURE
