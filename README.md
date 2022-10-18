@@ -10,7 +10,7 @@
 ➡️ Abra a pasta raiz do projeto no terminal e execute os comandos abaixo:
 
 ```bash
-virtualenv venv -p python 3
+virtualenv venv -p python3
 
 source venv/bin/activate
 ```
