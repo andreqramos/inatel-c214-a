@@ -100,6 +100,28 @@ def test_when_10_then_buzz():
     assert result == 'buzz'
 
 
+def test_when_15_then_fizzbuzz():
+    # FIXTURE
+    input_value = '15'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'fizzbuzz'
+
+
+def test_when_30_then_fizzbuzz():
+    # FIXTURE
+    input_value = '30'
+
+    # EXERCISE
+    result = fizzbuzz(input_value)
+
+    # ASSERT
+    assert result == 'fizzbuzz'
+
+
 def test_when_invalid_then_exception():
     # FIXTURE
     input_value = "invalid string"
