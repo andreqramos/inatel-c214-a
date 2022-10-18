@@ -1,13 +1,19 @@
 # Environments
+venv
 .venv/
+
 # Egg info
 nmengine.egg-info/
+
 # Unit test / coverage reports
 .pytest_cache/
 __pycache__
+
 ### vscode ###
 .vscode
+
 # Python stuff
 nmengine.egg-info/
+
 ### pycharm ###
 .idea
