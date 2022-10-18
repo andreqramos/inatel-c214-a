@@ -4,8 +4,12 @@ def fizzbuzz(number):
     except BaseException:
         raise  Exception("A entrada precisa ser um número")
 
+    if number % 3 == 0 and number % 5 == 0:
+        return 'fizzbuzz'
+
     if number % 5 == 0:
         return 'buzz'
+
     if number % 3 == 0:
         return 'fizz'
 
