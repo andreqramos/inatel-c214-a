@@ -1,4 +1,4 @@
-# API-4HUB-FAAS
+# FizzBuzz
 
 ![Python](https://img.shields.io/badge/python-v3.8-green)
 
