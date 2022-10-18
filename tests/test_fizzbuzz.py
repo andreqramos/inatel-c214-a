@@ -27,3 +27,14 @@ def test_when_5_then_buzz():
 
 def test_when_10_then_buzz():
     assert  fizzbuzz(10) == 'buzz'
+
+def test_when_invalid_then_exception():
+    # FIXTURE
+    input_value = "invalid string"
+
+    # EXERCISE
+    with pytest.raises(Exception) as error:
+        fizzbuzz(input_value)
+
+    # ASSERT
+    assert error.value.args[0] == "A entrada precisa ser um número"
