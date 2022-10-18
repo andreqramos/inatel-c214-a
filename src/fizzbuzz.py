@@ -1,4 +1,4 @@
 def fizzbuzz(number):
-    if number in [9, 6, 3]:
+    if number % 3 == 0:
         return 'fizz'
     return str(number)
